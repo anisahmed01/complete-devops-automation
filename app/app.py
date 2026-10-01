@@ -9,7 +9,7 @@ def home():
         {
             "application": "complete-devops-automation",
             "status": "running",
-            "version": "1.0.1",
+            "version": "1.0.2",
         }
     )
 
