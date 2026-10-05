@@ -1,4 +1,5 @@
 from flask import Flask, jsonify
+import os
 
 app = Flask(__name__)
 
@@ -10,6 +11,7 @@ def home():
             "application": "complete-devops-automation",
             "status": "running",
             "version": "1.0.3",
+            "message": os.getenv("APP_MESSAGE", "default message"),
         }
     )
 
