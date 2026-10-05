@@ -10,7 +10,7 @@ def home():
         {
             "application": "complete-devops-automation",
             "status": "running",
-            "version": "1.0.3",
+            "version": "1.0.4",
             "message": os.getenv("APP_MESSAGE", "default message"),
         }
     )
